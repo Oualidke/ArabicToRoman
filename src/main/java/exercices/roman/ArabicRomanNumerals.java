@@ -6,6 +6,6 @@ public class ArabicRomanNumerals {
     if (nbr == 1){
         return "I";
     }
-        return null;
+        return "";
     }
 }

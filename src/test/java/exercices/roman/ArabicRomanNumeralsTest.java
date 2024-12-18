@@ -10,4 +10,9 @@ public class ArabicRomanNumeralsTest {
         String result = ArabicRomanNumerals.convert(1);
         assertThat(result).isEqualTo("I");
     }
+    @Test
+    void convertir_2_donne_II() {
+        String result = ArabicRomanNumerals.convert(2);
+        assertThat(result).isEqualTo("II");
+    }
 }
