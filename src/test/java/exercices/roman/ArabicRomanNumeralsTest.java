@@ -20,4 +20,12 @@ public class ArabicRomanNumeralsTest {
         assertThat(result).isEqualTo("III");
     }
 
+    @Test
+    void convertir_4_donne_IV() {
+        String result = ArabicRomanNumerals.convert(4);
+        assertThat(result).isEqualTo("IV");
+    }
+
+
+
 }
