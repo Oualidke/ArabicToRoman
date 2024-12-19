@@ -25,6 +25,12 @@ public class ArabicRomanNumeralsTest {
         String result = ArabicRomanNumerals.convert(4);
         assertThat(result).isEqualTo("IV");
     }
+    @Test
+    void convertir_10_donne_X() {
+        String result = ArabicRomanNumerals.convert(10);
+        assertThat(result).isEqualTo("X");
+    }
+
 
 
 
