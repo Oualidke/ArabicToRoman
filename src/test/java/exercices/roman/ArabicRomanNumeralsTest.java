@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
 public class ArabicRomanNumeralsTest {
-
     @Test
     void convertir_1_donne_I() {
         String result = ArabicRomanNumerals.convert(1);
@@ -15,4 +14,10 @@ public class ArabicRomanNumeralsTest {
         String result = ArabicRomanNumerals.convert(2);
         assertThat(result).isEqualTo("II");
     }
+    @Test
+    void convertir_3_donne_III() {
+        String result = ArabicRomanNumerals.convert(3);
+        assertThat(result).isEqualTo("III");
+    }
+
 }
