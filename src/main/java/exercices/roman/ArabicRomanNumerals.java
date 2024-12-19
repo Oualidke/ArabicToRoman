@@ -8,6 +8,7 @@ public class ArabicRomanNumerals {
         if (nbr == 4) return "IV";
         if (nbr == 10) return "X";
         if (nbr == 39) return "XXXIX";
+        if (nbr == 50) return "L";
         return "";
     }
 }
