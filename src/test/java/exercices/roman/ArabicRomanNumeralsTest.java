@@ -31,6 +31,11 @@ public class ArabicRomanNumeralsTest {
         assertThat(result).isEqualTo("X");
     }
 
+    @Test
+    void convertir_39_donne_XXXIX() {
+        String result = ArabicRomanNumerals.convert(39);
+        assertThat(result).isEqualTo("XXXIX");
+    }
 
 
 
