@@ -5,6 +5,7 @@ public class ArabicRomanNumerals {
         if (nbr == 1) return "I";
         if (nbr == 2) return "II";
         if (nbr == 3) return "III";
+        if (nbr == 4) return "IV";
         return "";
     }
 }
